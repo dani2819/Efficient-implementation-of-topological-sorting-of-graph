@@ -41,20 +41,6 @@ def get_topological_sorting(digraph):
         return L
     else:
         return None
-#from networkx import DiGraph
-#g = DiGraph({1: [2], 2: [3]})
-#l = get_topological_sorting(g)
-#print(l)            
-        
-    
-
-
-    # Write your code here.
-
-    # Hint! If you'd like to test out these commands without
-    # writing a full-fledged program, you might want to familiarise
-    # yourself with the Python interactive shell or IPython (available
-    # on at least some Aalto IT computers)
 
     # Create a simple line digraph g: "(1)->(2)->(3)"
     # (The creation parameter is a dict of {node: list_of_successors},
