@@ -1,9 +1,6 @@
 # coding: utf-8
 def get_topological_sorting(digraph):
     """Given a directed graph, returns a list of nodes in topological order.
-
-    To run doctests:
-        python -m doctest -v solution.py
     >>> from networkx import DiGraph
     >>> get_topological_sorting(DiGraph({1: [], 2: [1], 3: [2]}))
     [3, 2, 1]
